@@ -1,10 +1,6 @@
 def addition(num1, num2)
- 
-  num1=gets.chomp.to_i
-  
-  num2=gets.chomp.to_i
-    sum=num1+num2
-    puts sum
+  sum = num2.class + num1.class
+  puts sum
 end
 
 def subtraction(num1, num2)
